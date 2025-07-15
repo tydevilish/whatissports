@@ -1,5 +1,4 @@
 
-import Link from "next/link";
 import Image from "next/image";
 
 export default function Home() {
@@ -16,9 +15,9 @@ export default function Home() {
           />
         </div>
         <div>
-          <Link href="/about" className="text-gray-500 hover:text-white transition-colors duration-300 font-light text-sm">
+          <a href="https://jirapatpapai.netlify.app" className="text-gray-500 hover:text-white transition-colors duration-300 font-light text-sm" target="_blank">
             About
-          </Link>
+          </a>
         </div>
       </nav>
 
@@ -41,7 +40,7 @@ export default function Home() {
               </div>
             </div>
             <div className="max-w-2xl">
-              <h2 className="text-5xl font-thin mb-8 text-white tracking-wide">Football: The Beautiful Game</h2>
+              <h2 className="text-5xl font-extrabold mb-8 text-white tracking-wide">Football: The Beautiful Game</h2>
               <p className="text-lg text-gray-400 leading-relaxed font-light mb-6">
                 Football, known as soccer in some regions, stands as the world's most popular sport. It transcends cultural boundaries and unites billions of fans globally through its elegant simplicity and dramatic intensity.
               </p>
@@ -66,7 +65,7 @@ export default function Home() {
               </div>
             </div>
             <div className="lg:order-1 max-w-2xl">
-              <h3 className="text-4xl font-thin mb-8 text-white tracking-wide">Rules and Regulations</h3>
+              <h3 className="text-4xl font-extrabold mb-8 text-white tracking-wide">Rules and Regulations</h3>
               <p className="text-lg text-gray-400 leading-relaxed font-light mb-6">
                 Football follows a set of standardized rules governed by FIFA. The game consists of two 45-minute halves, with teams of eleven players each striving to score goals while adhering to specific regulations.
               </p>
@@ -94,7 +93,7 @@ export default function Home() {
               </div>
             </div>
             <div className="max-w-2xl">
-              <h3 className="text-4xl font-thin mb-8 text-white tracking-wide">Rich History and Evolution</h3>
+              <h3 className="text-4xl font-extrabold mb-8 text-white tracking-wide">Rich History and Evolution</h3>
               <p className="text-lg text-gray-400 leading-relaxed font-light mb-6">
                 The modern game of football emerged in England during the 19th century, though various forms of ball games existed across ancient civilizations. The Football Association was established in 1863, marking the standardization of the sport's rules.
               </p>
@@ -128,7 +127,7 @@ export default function Home() {
               </div>
             </div>
             <div className="lg:order-1 max-w-2xl">
-              <h2 className="text-5xl font-thin mb-8 text-white tracking-wide">Basketball: Above and Beyond</h2>
+              <h2 className="text-5xl font-extrabold mb-8 text-white tracking-wide">Basketball: Above and Beyond</h2>
               <p className="text-lg text-gray-400 leading-relaxed font-light mb-6">
                 Basketball is a dynamic team sport that combines athleticism, strategy, and skill. It has evolved from a simple peach basket game to one of the world's most popular sports, featuring high-flying action and intense competition.
               </p>
@@ -153,7 +152,7 @@ export default function Home() {
               </div>
             </div>
             <div className="max-w-2xl">
-              <h3 className="text-4xl font-thin mb-8 text-white tracking-wide">Game Rules and Structure</h3>
+              <h3 className="text-4xl font-extrabold mb-8 text-white tracking-wide">Game Rules and Structure</h3>
               <p className="text-lg text-gray-400 leading-relaxed font-light mb-6">
                 Basketball games are typically divided into four quarters, with duration varying by league - NBA quarters last 12 minutes, while FIBA games feature 10-minute quarters. The sport combines elements of offense and defense, with teams aiming to score points by shooting the ball through the opponent's hoop.
               </p>
@@ -181,7 +180,7 @@ export default function Home() {
               </div>
             </div>
             <div className="lg:order-1 max-w-2xl">
-              <h3 className="text-4xl font-thin mb-8 text-white tracking-wide">Historical Journey</h3>
+              <h3 className="text-4xl font-extrabold mb-8 text-white tracking-wide">Historical Journey</h3>
               <p className="text-lg text-gray-400 leading-relaxed font-light mb-6">
                 Basketball was invented by Dr. James Naismith in 1891 at the International YMCA Training School (now Springfield College) in Massachusetts. The sport was created as an indoor activity for students during the winter months.
               </p>
@@ -215,7 +214,7 @@ export default function Home() {
               </div>
             </div>
             <div className="max-w-2xl">
-              <h2 className="text-5xl font-thin mb-8 text-white tracking-wide">Volleyball: Power and Precision</h2>
+              <h2 className="text-5xl font-extrabold mb-8 text-white tracking-wide">Volleyball: Power and Precision</h2>
               <p className="text-lg text-gray-400 leading-relaxed font-light mb-6">
                 Volleyball is a fast-paced team sport that combines power, agility, and strategic teamwork. Players must coordinate their movements perfectly to keep the ball in play while executing powerful spikes and precise serves.
               </p>
@@ -240,7 +239,7 @@ export default function Home() {
               </div>
             </div>
             <div className="lg:order-1 max-w-2xl">
-              <h3 className="text-4xl font-thin mb-8 text-white tracking-wide">Rules and Gameplay</h3>
+              <h3 className="text-4xl font-extrabold mb-8 text-white tracking-wide">Rules and Gameplay</h3>
               <p className="text-lg text-gray-400 leading-relaxed font-light mb-6">
                 Volleyball matches are played between two teams of six players each, with the objective of scoring points by grounding the ball on the opponent's court. Each team is allowed three touches to return the ball over the net.
               </p>
@@ -268,7 +267,7 @@ export default function Home() {
               </div>
             </div>
             <div className="max-w-2xl">
-              <h3 className="text-4xl font-thin mb-8 text-white tracking-wide">Historical Development</h3>
+              <h3 className="text-4xl font-extrabold mb-8 text-white tracking-wide">Historical Development</h3>
               <p className="text-lg text-gray-400 leading-relaxed font-light mb-6">
                 Volleyball was invented in 1895 by William G. Morgan in Holyoke, Massachusetts. Originally called "Mintonette," the sport was designed as a less intense alternative to basketball for older YMCA members.
               </p>
@@ -302,7 +301,7 @@ export default function Home() {
               </div>
             </div>
             <div className="lg:order-1 max-w-2xl">
-              <h2 className="text-5xl font-thin mb-8 text-white tracking-wide">Badminton: Grace and Speed</h2>
+              <h2 className="text-5xl font-extrabold mb-8 text-white tracking-wide">Badminton: Grace and Speed</h2>
               <p className="text-lg text-gray-400 leading-relaxed font-light mb-6">
                 Badminton is one of the fastest racquet sports in the world, combining lightning-quick reflexes with strategic gameplay. Players must demonstrate exceptional agility and tactical thinking to succeed.
               </p>
@@ -327,7 +326,7 @@ export default function Home() {
               </div>
             </div>
             <div className="max-w-2xl">
-              <h3 className="text-4xl font-thin mb-8 text-white tracking-wide">Rules and Scoring</h3>
+              <h3 className="text-4xl font-extrabold mb-8 text-white tracking-wide">Rules and Scoring</h3>
               <p className="text-lg text-gray-400 leading-relaxed font-light mb-6">
                 Badminton matches are played using a rally scoring system, with games played to 21 points. Players must win by two clear points, and matches are typically best of three games.
               </p>
@@ -355,7 +354,7 @@ export default function Home() {
               </div>
             </div>
             <div className="lg:order-1 max-w-2xl">
-              <h3 className="text-4xl font-thin mb-8 text-white tracking-wide">Historical Journey</h3>
+              <h3 className="text-4xl font-extrabold mb-8 text-white tracking-wide">Historical Journey</h3>
               <p className="text-lg text-gray-400 leading-relaxed font-light mb-6">
                 Badminton's origins can be traced back to ancient games played in China, Japan, and India. The modern form of the sport developed in British India during the mid-19th century, where it was known as "Poona."
               </p>
@@ -364,6 +363,93 @@ export default function Home() {
               </p>
               <p className="text-lg text-gray-400 leading-relaxed font-light">
                 Today, badminton continues to grow in popularity, particularly in Asia, where countries like China, Indonesia, and Malaysia dominate international competitions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* F1 Section */}
+      <section className="py-20 px-8">
+        <div className="max-w-[1920px] mx-auto">
+
+          {/* F1 Introduction */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center mb-40">
+            <div className="relative">
+              <div className="relative w-full h-[600px] overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black z-10"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black z-10"></div>
+                <Image
+                  src="/f1.jpg"
+                  alt="Formula 1"
+                  fill
+                  className="object-cover opacity-90"
+                />
+              </div>
+            </div>
+            <div className="max-w-2xl">
+              <h2 className="text-5xl font-extrabold mb-8 text-white tracking-wide">Formula 1: The Pinnacle of Motorsport</h2>
+              <p className="text-lg text-gray-400 leading-relaxed font-light mb-6">
+                Formula 1 represents the highest class of international racing, combining cutting-edge technology, extraordinary skill, and breathtaking speed on the world's most challenging circuits.
+              </p>
+              <p className="text-lg text-gray-400 leading-relaxed font-light">
+                With a rich heritage dating back to 1950, F1 has evolved into a global spectacle that showcases the ultimate fusion of human talent and engineering excellence, pushing the boundaries of what's possible in motorsport.
+              </p>
+            </div>
+          </div>
+
+          {/* F1 Rules */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center mb-40">
+            <div className="lg:order-2">
+              <div className="relative w-full h-[600px] overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-l from-black via-transparent to-black z-10"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black z-10"></div>
+                <Image
+                  src="/f1-rules.jpg"
+                  alt="Formula 1 Rules"
+                  fill
+                  className="object-cover opacity-70"
+                />
+              </div>
+            </div>
+            <div className="lg:order-1 max-w-2xl">
+              <h3 className="text-4xl font-extrabold mb-8 text-white tracking-wide">Rules and Regulations</h3>
+              <p className="text-lg text-gray-400 leading-relaxed font-light mb-6">
+                Formula 1 operates under a complex set of technical and sporting regulations governed by the FIA. These rules cover everything from car design specifications to race procedures, ensuring fair competition and safety.
+              </p>
+              <p className="text-lg text-gray-400 leading-relaxed font-light mb-6">
+                Key regulations include power unit specifications, aerodynamic restrictions, and tire usage rules. The sport also features a points system that rewards both drivers and constructors based on race finishing positions.
+              </p>
+              <p className="text-lg text-gray-400 leading-relaxed font-light">
+                Modern F1 has embraced sustainability initiatives, with regulations increasingly focused on fuel efficiency, hybrid technology, and environmental responsibility.
+              </p>
+            </div>
+          </div>
+
+          {/* F1 History */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center mb-20">
+            <div className="relative">
+              <div className="relative w-full h-[600px] overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black z-10"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black z-10"></div>
+                <Image
+                  src="/f1-history.jpg"
+                  alt="Formula 1 History"
+                  fill
+                  className="object-cover opacity-70"
+                />
+              </div>
+            </div>
+            <div className="max-w-2xl">
+              <h3 className="text-4xl font-extrabold mb-8 text-white tracking-wide">Historical Evolution</h3>
+              <p className="text-lg text-gray-400 leading-relaxed font-light mb-6">
+                Formula 1 officially began in 1950 with the inaugural World Championship season. Throughout its history, the sport has witnessed remarkable technological advancements, from the front-engine cars of the 1950s to today's hybrid power units.
+              </p>
+              <p className="text-lg text-gray-400 leading-relaxed font-light mb-6">
+                Legendary drivers like Juan Manuel Fangio, Ayrton Senna, Michael Schumacher, and Lewis Hamilton have defined different eras of the sport, setting records and inspiring generations of fans and competitors.
+              </p>
+              <p className="text-lg text-gray-400 leading-relaxed font-light">
+                Today, Formula 1 continues to evolve with a focus on closer racing, greater sustainability, and expanding its global audience through digital innovation and engaging content.
               </p>
             </div>
           </div>
@@ -450,11 +536,30 @@ export default function Home() {
               </div>
               <p className="text-gray-300 italic">"The biggest opponent is yourself. Always push beyond your limits."</p>
             </div>
+
+            {/* F1 Quote */}
+            <div className="flex-none w-96 bg-gray-900/50 rounded-xl p-6 snap-center">
+              <div className="flex items-center space-x-4 mb-4">
+                <Image
+                  src="/hamilton.jpg"
+                  alt="Lewis Hamilton"
+                  width={60}
+                  height={60}
+                  className="rounded-full"
+                />
+                <div className="text-left">
+                  <h3 className="text-xl font-light text-white">Lewis Hamilton</h3>
+                  <p className="text-sm text-gray-400">F1 Champion</p>
+                </div>
+              </div>
+              <p className="text-gray-300 italic">"We all have the ability to drive change, to make an impact and to inspire people. We just need to find what we're passionate about and pursue it with all we've got."</p>
+            </div>
           </div>
 
           {/* Scroll Indicators */}
           <div className="flex justify-center space-x-2 mt-6">
             <div className="w-2 h-2 rounded-full bg-white"></div>
+            <div className="w-2 h-2 rounded-full bg-gray-600"></div>
             <div className="w-2 h-2 rounded-full bg-gray-600"></div>
             <div className="w-2 h-2 rounded-full bg-gray-600"></div>
             <div className="w-2 h-2 rounded-full bg-gray-600"></div>
